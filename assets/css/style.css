@@ -52,6 +52,7 @@ form input {
   font-size: 2.2rem;
   border: 2px solid var(--grey);
   border-radius: 12px;
+  display: flex;
 }
 
 form .form-group {
@@ -120,13 +121,20 @@ footer {
 .task-type {
   color: var(--secondary);
   font-size: 1.55rem;
+  border-radius: 5px;
+  
+
 }
+
+.selection, 
 .task-actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin: 10px 0 5px 0;
   justify-content: space-between;
+
+  
 }
 
 .task-actions button,
@@ -167,6 +175,7 @@ footer {
 
 .select-dropdown,
 .select-status {
+  
   display: block;
   font-size: 2.2rem;
   color: #444;
